@@ -1,5 +1,9 @@
 #!/bin/sh
 
+
+#This script is to solve slow wireless connection problem on Linux. (only happened sometimes)
+
+
 kernel_release=$(uname -r)
 
 echo ""
