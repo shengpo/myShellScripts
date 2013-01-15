@@ -7,14 +7,12 @@ turnOff_wl11n.sh
 script修改原理如下：
 --------------------
 - wireless慢的話，打開terminal輸入以下指令：
-'''
-sudo rmmod iwlwifi && sudo modprobe iwlwifi 11n_disable=1
-'''
+
+	<code>sudo rmmod iwlwifi && sudo modprobe iwlwifi 11n_disable=1</code>
 
 - kernel更新至3.7.1-030701-generic時，必須改成下列方式：
-'''
-sudo rmmod iwldvm && sudo rmmod iwlwifi && sudo modprobe iwlwifi 11n_disable=1
-'''
+
+	<code>sudo rmmod iwldvm && sudo rmmod iwlwifi && sudo modprobe iwlwifi 11n_disable=1</code>
 
 
 refernece: 
