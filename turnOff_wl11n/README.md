@@ -19,4 +19,5 @@ script修改原理如下：
 
 refernece: 
 ----------
+- https://help.ubuntu.com/community/AsusZenbookPrime#Wireless
 - https://bbs.archlinux.org/viewtopic.php?pid=1176708
